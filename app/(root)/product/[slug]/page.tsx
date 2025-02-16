@@ -75,11 +75,9 @@ const ProductDetailsPage = async (props: {
                         slug: product.slug,
                         price: product.price,
                         qty: 1,
-                        image: product.images[0],
+                        image: product.images![0],
                       }}
-                    >
-                      Add To Cart
-                    </AddToCart>
+                    />
                   </div>
                 )}
               </CardContent>
